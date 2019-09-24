@@ -1,0 +1,47 @@
+homo HOMOGENEOUS EXPOSURE AND CONSTANT PICKUP
+2 - number of repetitions
+15 - number of years to run
+2 - outputs per year
+500 - size of definitive host population (N)
+0 0.592 - host heterogeneity: none=0, gamma=1; parameter
+0 1 - pickup function: constant=0, logarithmic=1; parameter
+1 5 - number of additional development stages in host; maturation rate [only works for 0,1]
+0.5 - worm death rate: same for all development stages
+25 10 5 - free-living pops: uninfective death, uninfect maturation, infect death
+5799500 0.03 - egg production and exponential density dependence of adult stage
+1 0.000005 - contact function: constant=0, linear=1; rate (beta)
+2 - number of chemotherapy strategies (one line for each of these below)
+1 5 0.8 0.8 - type: mass random=1; year of application; coverage; efficacy
+1 10 0.8 0.8
+
+batch HOMOGENEOUS EXPOSURE, HETEROGENEOUS PICKUP
+2 - number of repetitions
+15 - number of years to run
+2 - outputs per year
+500 - size of definitive host population (N)
+0 0.592 - host heterogeneity: none=0, gamma=1; parameter
+1 0.02 - pickup function: constant=0, logarithmic=1; parameter
+1 5 - number of additional development stages in host; maturation rate [only works for 0,1]
+0.5 - worm death rate: same for all development stages
+25 10 5 - free-living pops: uninfective death, uninfect maturation, infect death
+5799500 0.03 - egg production and exponential density dependence of adult stage
+1 0.000005 - contact function: constant=0, linear=1; rate (beta)
+2 - number of chemotherapy strategies (one line for each of these below)
+1 5 0.8 0.8 - type: mass random=1; year of application; coverage; efficacy
+1 10 0.8 0.8
+
+predis HETEROGENEOUS EXPOSURE, CONSTANT PICKUP
+2 - number of repetitions
+15 - number of years to run
+2 - outputs per year
+500 - size of definitive host population (N)
+1 0.592 - host heterogeneity: none=0, gamma=1; parameter
+0 1 - pickup function: constant=0, logarithmic=1; parameter
+1 5 - number of additional development stages in host; maturation rate [only works for 0,1]
+0.5 - worm death rate: same for all development stages
+25 10 5 - free-living pops: uninfective death, uninfect maturation, infect death
+5799500 0.03 - egg production and exponential density dependence of adult stage
+1 0.000005 - contact function: constant=0, linear=1; rate (beta)
+2 - number of chemotherapy strategies (one line for each of these below)
+1 5 0.8 0.8 - type: mass random=1; year of application; coverage; efficacy
+1 10 0.8 0.8
